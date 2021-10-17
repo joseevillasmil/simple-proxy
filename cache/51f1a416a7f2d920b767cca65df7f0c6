@@ -1,0 +1,8 @@
+$( document ).ready(function() {
+    $.ajax({
+	url: "ajax.php?modulo=blog&accion=inicio", success: function(result){
+       
+        $("#articulos").html(result);
+        
+    }});
+});

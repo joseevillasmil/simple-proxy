@@ -1,0 +1,2 @@
+function clearInput(cssClass){var focusField=$(cssClass);focusField.focus(function(){var el=$(this);var val=el.val();if(!el.data('placeholder')){el.data('placeholder',val);}
+if(val===el.data('placeholder')){el.val('');}});focusField.blur(function(){var el=$(this);if(el.val()===''){el.val(el.data('placeholder')||'');}});}

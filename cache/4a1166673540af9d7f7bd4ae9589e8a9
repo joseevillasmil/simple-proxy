@@ -1,0 +1,16 @@
+conte = document.getElementById("cont_d08754365b3480cb839586822f75e9e9");
+                        enlace = document.getElementById("h_d08754365b3480cb839586822f75e9e9");anchor = document.getElementById("a_d08754365b3480cb839586822f75e9e9");h2_enlace = document.getElementById("h2_d08754365b3480cb839586822f75e9e9");if (conte && enlace){
+                            enlace.style.cssText = "font-family:Arial;font-size:14px; height:19px; text-align:center; cursor:pointer; text-decoration:underline";
+                            conte.style.cssText = "text-align:center; width:305px; color:#656565; background-color:#FFFFFF; border:1px solid #BDBDBD;";
+                            if (h2_enlace) h2_enlace.style.cssText = "font-weight:normal;display:inline;";
+                            elem = document.createElement("iframe");
+                            elem.style.cssText = "width:305px; color:#656565; height:155px;";
+                            elem.id = "d08754365b3480cb839586822f75e9e9";
+                            elem.src = "https://www.meteored.mx/getwid/d08754365b3480cb839586822f75e9e9";
+                            elem.frameBorder = 0;
+                            elem.allowTransparency = true;
+                            elem.scrolling = "no";
+                            elem.name = "flipe";
+                            elem.style.height = "155";
+                            conte.appendChild(elem);
+                        }
